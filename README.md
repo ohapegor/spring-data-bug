@@ -1,7 +1,10 @@
 # spring-data-bug
 Example project to demonstrate and reproduce spring data bug
+
 Unable to use MongoTemplate to perform query with 'in' condition by field annotated with @Field(targetType = FieldType.OBJECT_ID)
+
 operation results in exception:
+
 Query failed with error code 2 and error message '$in needs an array' on server localhost:27017; nested exception is com.mongodb.MongoQueryException: Query failed with error code 2 and error message '$in needs an array' on server localhost:27017
 org.springframework.data.mongodb.UncategorizedMongoDbException: Query failed with error code 2 and error message '$in needs an array' on server localhost:27017; nested exception is com.mongodb.MongoQueryException: Query failed with error code 2 and error message '$in needs an array' on server localhost:27017
 	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:138)
