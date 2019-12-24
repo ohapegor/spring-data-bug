@@ -1,0 +1,11 @@
+logging:
+  pattern:
+    #pretty logs
+    console: "%boldMagenta(%d{yyyy-MM-dd HH:mm:ss:SSS}) %green([%thread]) %highlight(%-5level) %cyan(%logger{25}.%M\\(\\)) - %boldYellow(%msg %n)"
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
