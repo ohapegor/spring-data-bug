@@ -1,5 +1,5 @@
 # spring-data-bug
-Example project to demonstrate and reproduce spring data bug
+Example project to demonstrate and reproduce spring data bug https://github.com/spring-projects/spring-data-mongodb/issues/3296
 
 Unable to use MongoTemplate to perform query with 'in' condition by field annotated with @Field(targetType = FieldType.OBJECT_ID)
 
